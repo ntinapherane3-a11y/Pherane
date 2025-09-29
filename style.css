@@ -1,0 +1,64 @@
+body {
+background-color: lightblue;
+font-size: 20px;
+line-height: 1.6;
+grid-template-columns:repeat(2, 1fr);
+}
+
+.grid-container {
+	grid-template-columns:  repeat(5, 1fr);	display: grid;
+
+	gap: 20px;
+	padding: 20px;
+	width: 20%;
+	height: 20%;
+
+
+
+}
+.grid-items {
+	background:darkgreen ;
+	padding: 10px;
+border: 6px;
+  font-size: 20px;
+  text-align: center;
+
+  text-box: 7%;
+}
+
+
+.box {
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: content-box;
+  flex: 34;
+  border: 1px solid black;
+
+
+}
+.flex-container{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 1px;
+	background-color: unset;
+	padding: 10px;
+	text-align: center;
+	
+	margin-top: auto;
+	width: 20%;
+	height: 20%;
+}
+#my video {
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin: auto;
+}
+.hover-img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.hover-img:hover {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}

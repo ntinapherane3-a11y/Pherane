@@ -1,5 +1,5 @@
 body {
-background-color: lightbrown;
+background-color: lightyellow;
 font-size: 20px;
 line-height: 1.6;
 grid-template-columns:repeat(2, 1fr);
@@ -63,3 +63,4 @@ border: 6px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 
 }
+

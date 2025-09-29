@@ -1,5 +1,5 @@
 body {
-background-color: lightblue;
+background-color: lightbrown;
 font-size: 20px;
 line-height: 1.6;
 grid-template-columns:repeat(2, 1fr);
@@ -61,4 +61,5 @@ border: 6px;
 }
 .hover-img:hover {
   transition: transform 0.3s ease, opacity 0.3s ease;
+
 }
